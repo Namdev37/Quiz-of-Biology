@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Quiz By Namdev</title>
+        <script type="text/javascript" charset="utf-8">
+                function check(){
+                        var score = 0;
+                        var result = document.getElementById("result");
+                        var q1 = document.quiz.q1.value;
+                        var q2 = document.quiz.q2.value;
+                        var q3 = document.quiz.q3.value;
+                        var q4 = document.quiz.q4.value;
+                        var q5 = document.quiz.q5.value;
+                        var q6 = document.quiz.q6.value;
+                        var q7 = document.quiz.q7.value;
+                        var q8 = document.quiz.q8.value;
+                        var q9 = document.quiz.q9.value;
+                        var q10 = document.quiz.q10.value;
+                        
+        
+                        if(q1 == "D"){
+                                score++;
+                        }
+                        if(q2 == "D"){
+                                score++;
+                        }                        
+                        if(q3 == "B"){
+                                score++;
+                        }                       
+                        if(q4 == "C"){
+                                score++;
+                        }                        
+                        if(q5 == "B"){
+                                score++;
+                        }                       
+                        if(q6 == "C"){
+                                score++;
+                        }                        
+                        if(q7 == "A"){
+                                score++;
+                        }                        
+                        if(q8 == "D"){
+                                score++;
+                        }                        
+                        if(q9 == "C"){
+                                score++;
+                        }                        
+                        if(q10 == "C"){
+                                score++;
+                        }
+                        result.innerHTML = "Your score is = "+score;
+                }
+        </script>
+</head>
+<body>
+        <center><h1>Quiz</h1></center>
+        <form name="quiz">
+              <div>
+                <p>1. colourless plastids are known as?</p>
+                <p><input type="radio" name="q1" value="A" />A. chromoplasts</p>
+                <p><input type="radio" name="q1" value="B" />B. chloroplasts</p>
+                <p><input type="radio" name="q1" value="C" />C. protiplast</p>
+                <p><input type="radio" name="q1" value="D" />D. leucoplasts</p>
+             </div>
+              <div>
+                <p>2. Animal cell lacking nuclie would alsolack in?</p>
+                <p><input type="radio" name="q2" value="A" />A. Ribosome</p>
+                <p><input type="radio" name="q2" value="B" />B. Lycsosome</p>
+                <p><input type="radio" name="q2" value="C" />C. Endoplasmic reticulam</p>
+                <p><input type="radio" name="q2" value="D" />D. chromosome</p>
+             </div>
+              <div>
+                <p>3. The phenomenon by which protoplast of a cell shrinks from the wall is?</p>
+                <p><input type="radio" name="q3" value="A" />A. osomosis</p>
+                <p><input type="radio" name="q3" value="B" />B. Plasmolysis</p>
+                <p><input type="radio" name="q3" value="C" />C. Diffusion</p>
+                <p><input type="radio" name="q3" value="D" />D. Glycolysis</p>
+             </div>
+              <div>
+                <p>4. Which of the following are examples of prokaryotes?</p>
+                <p><input type="radio" name="q4" value="A" />A. Algae</p>
+                <p><input type="radio" name="q4" value="B" />B. Fungi</p>
+                <p><input type="radio" name="q4" value="C" />C. Bactria</p>
+                <p><input type="radio" name="q4" value="D" />D. Protozoa</p>
+             </div>
+              <div>
+                <p>5. The barrier between the protoplasm and the outer environment in an animal cell is?</p>
+                <p><input type="radio" name="q5" value="A" />A. Cell wall</p>
+                <p><input type="radio" name="q5" value="B" />B. Plasma membrane</p>
+                <p><input type="radio" name="q5" value="C" />C. Nuclear membrane</p>
+                <p><input type="radio" name="q5" value="D" />D. Cytoplasm</p>
+             </div>
+              <div>
+                <p>6. Ribosomes are the site of?</p>
+                <p><input type="radio" name="q6" value="A" />A. Photosynthesis</p>
+                <p><input type="radio" name="q6" value="B" />B. Respiration</p>
+                <p><input type="radio" name="q6" value="C" />C. Protien synthesis</p>
+                <p><input type="radio" name="q6" value="D" />D. Absorption</p>
+             </div>
+              <div>
+                <p>7. Wwhich is the largest cell organelle present in plant cell?</p>
+                <p><input type="radio" name="q7" value="A" />A. nucleus</p>
+                <p><input type="radio" name="q7" value="B" />B. chloroplast</p>
+                <p><input type="radio" name="q7" value="C" />C. Endoplasmic reticulum</p>
+                <p><input type="radio" name="q7" value="D" />D. Mitochondria</p>
+             </div>
+              <div>
+                <p>8. _____ is called the power house of the cell.</p>
+                <p><input type="radio" name="q8" value="A" />A. ATP</p>
+                <p><input type="radio" name="q8" value="B" />B. Lysosomes</p>
+                <p><input type="radio" name="q8" value="C" />C. Red blood cell</p>
+                <p><input type="radio" name="q8" value="D" />D. Mitocondria</p>
+             </div>
+              <div>
+                <p>9. ______ is called the energy currency of the cell.</p>
+                <p><input type="radio" name="q9" value="A" />A. Endoplasmic reticulum</p>
+                <p><input type="radio" name="q9" value="B" />B. Oxygen</p>
+                <p><input type="radio" name="q9" value="C" />C. ATP</p>
+                <p><input type="radio" name="q9" value="D" />D. Mitocondria</p>
+             </div>
+              <div>
+                <p>10. ________ coined the term "cell".</p>
+                <p><input type="radio" name="q10" value="A" />A. Gorbachev</p>
+                <p><input type="radio" name="q10" value="B" />B. Himmler</p>
+                <p><input type="radio" name="q10" value="C" />C. Robert hooke</p>
+                <p><input type="radio" name="q10" value="D" />D. Anton Von Leeuwenhoek</p>
+             </div>
+
+        </form>
+        <p id="result"></p>
+        <button onclick="check()">Check Answer</button>
+</body>
+</html>
